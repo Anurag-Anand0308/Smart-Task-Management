@@ -1,0 +1,137 @@
+# Maven
+target/
+*.jar
+*.war
+*.ear
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+.flattened-pom.xml
+
+# Spring Boot
+*.log
+application.log
+logs/
+log/
+
+# IDE - IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.DS_Store
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+.settings/
+
+# IDE - Eclipse
+.classpath
+.project
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - Netbeans
+nbproject/
+.nb-gradle/
+
+# IDE - Others
+*.swp
+*.swo
+*~
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Node (if frontend included)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Gradle (alternative build tool)
+.gradle
+gradlew
+gradlew.bat
+
+# Database
+*.db
+*.sqlite
+*.h2.db
+smart_task_db/
+
+# Environment & Properties
+application-dev.properties
+application-prod.properties
+application-test.properties
+.env
+.env.local
+.env.*.local
+
+# Build Output
+bin/
+build/
+dist/
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Test Coverage
+coverage/
+jacoco.exec
+.coverage
+htmlcov/
+
+# JVM/Runtime
+*.class
+hs_err_pid*
+replay_pid*
+
+# Misc
+.cache/
+.cargo/
+Cargo.lock
+*.orig
+
+# Custom
+.vscode/settings.json
+.idea/misc.xml
+.idea/workspace.xml
+*.lock
+
+# Docker
+docker-compose.override.yml
+Dockerfile.dev
+
+# Logs
+*.log
+logs/
+*.gz
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Sensitive files (if created)
+credentials.properties
+secrets.properties
+application-secrets.properties
+.aws/
+.gcp/
